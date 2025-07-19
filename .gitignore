@@ -1,0 +1,37 @@
+# Ignorar entornos virtuales
+venv/
+.venv/
+env/
+.env/
+
+# Ignorar archivos Python generados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar bases de datos SQLite (si no usas PostgreSQL desde el inicio)
+db.sqlite3
+
+# Ignorar archivos de configuración local
+local_settings.py
+
+# Ignorar archivos estáticos y de medios generados
+/media/
+/staticfiles/
+
+# Ignorar archivos de IDEs
+.idea/
+.vscode/
+*.iml
+
+# Ignorar logs y reportes
+*.log
+*.out
+coverage/
+.coverage
+
+# Ignorar modelos de IA guardados (si se generan y son grandes)
+*.pkl
+*.h5
+*.joblib
